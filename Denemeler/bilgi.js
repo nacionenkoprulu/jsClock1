@@ -20,4 +20,3 @@ function Time(){
   div.innerHTML= `${now.getHours()}:${now.getMinutes()}:${now.getSeconds()} ${gunTutucu[day]}` ;
 }
 setInterval(Time,1000);
-l 
